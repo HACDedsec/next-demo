@@ -1,0 +1,25 @@
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.card img{
+  max-height: 200px;
+  padding: 20px 0px;
+}
+
+.card img:hover{
+  scale: 120%;
+}
+
+.card a:hover{
+  color: darkgoldenrod;
+  /* box-shadow: 0 10px 0 0  lightslategray; */
+  text-shadow: 6px 6px 12px lightgoldenrodyellow;
+}
+.card{
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+}
